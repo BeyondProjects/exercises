@@ -1,0 +1,1 @@
+name.downcase == 'RoGer'.downcase ? puts("true") : ("false")
