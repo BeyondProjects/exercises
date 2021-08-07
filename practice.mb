@@ -1,0 +1,31 @@
+PEDAC
+
+PROBLEM
+- write a method
+- method takes vehicles array
+- outputs the number of occurences of each vehicles within the array
+- input: array
+- output: hash, printing each key value pair
+
+EXAMPLE
+vehicles = [
+  'car', 'car', 'truck', 'car', 'SUV', 'truck',
+  'motorcycle', 'motorcycle', 'car', 'truck'
+]
+
+count_occurrences(vehicles)
+
+DATA STRUCTURE
+input: array
+converts to hash and counts each occurence
+output: hash, printed
+
+ALGORITHM
+1. define method called count_occurrences.
+2. create an empty hash
+3. iterate over hash and create a symbol for each unique vehicle.
+4. iterate over each occurence in the vehicle array and add it to the matching symbol
+5. print each key value pair
+
+
+CODE
